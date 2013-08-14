@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block title %} {{movieName}} - Somos indie{% endblock %}
+
+{% block content %}
+	<h1>Review de {{ movieName }}</h1>
+	<h4>Director {{ director }}</h4>
+	<p>{{ description }}</p>
+{% endblock %}

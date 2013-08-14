@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block title %} {{movieName}} - Somos indie{% endblock %}
+
+{% block content %}
+	<h1>Agrega la informacion de {{ movieName }}</h1>
+	<form method="GET">
+		<p>Director:</p>
+		<p><input type="text" name="director"></p>
+		<p>Descripcion:</p>
+		<p><input type="text" name="description"></p>
+	</form>
+{% endblock %}

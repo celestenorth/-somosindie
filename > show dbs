@@ -1,0 +1,13 @@
+> show dbs
+// Que base de datos voy a usar
+> use somosindie
+// Me muestra que colecciones tengo en mi base de datos
+> show collections
+
+// Encuentra cosas en una coleccion
+> db.movies.find()
+
+// Borra toda una coleccion
+> db.movies.drop()
+
+
