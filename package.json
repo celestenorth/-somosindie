@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "express": "4.16.0",
-    "mongoose": "5.12.2",
+    "mongoose": "6.4.6",
     "swig": "~0.14.0",
     "consolidate": "~0.16.0"
   }
